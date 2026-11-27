@@ -13,10 +13,5 @@ pipeline {
                 echo 'Testing DEV application'
             }
         }
-        stage('Deployment') {
-            steps {
-                echo 'Deploying using tomcat'
-            }
-        }
     }
 }
